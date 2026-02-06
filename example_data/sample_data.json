@@ -1,0 +1,67 @@
+{
+    "organizations": [
+        {
+            "name": "Acme Corporation",
+            "slug": "acme-corp",
+            "plan": "professional",
+            "email": "contact@acme.com",
+            "currency": "USD"
+        }
+    ],
+    "users": [
+        {
+            "email": "admin@acme.com",
+            "password": "Admin123!",
+            "full_name": "Admin User",
+            "role": "admin"
+        },
+        {
+            "email": "manager@acme.com",
+            "password": "Manager123!",
+            "full_name": "Manager User",
+            "role": "manager"
+        }
+    ],
+    "inventory_items": [
+        {
+            "sku": "WDG-001",
+            "name": "Standard Widget",
+            "category": "Widgets",
+            "cost_price": 5.00,
+            "selling_price": 15.99,
+            "quantity_on_hand": 500
+        },
+        {
+            "sku": "WDG-002",
+            "name": "Premium Widget",
+            "category": "Widgets",
+            "cost_price": 12.50,
+            "selling_price": 39.99,
+            "quantity_on_hand": 200
+        },
+        {
+            "sku": "GDG-001",
+            "name": "Basic Gadget",
+            "category": "Gadgets",
+            "cost_price": 8.00,
+            "selling_price": 24.99,
+            "quantity_on_hand": 150
+        }
+    ],
+    "orders": [
+        {
+            "customer_name": "John Smith",
+            "customer_email": "john.smith@example.com",
+            "items": [
+                {
+                    "sku": "WDG-001",
+                    "quantity": 10
+                },
+                {
+                    "sku": "GDG-001",
+                    "quantity": 5
+                }
+            ]
+        }
+    ]
+}
