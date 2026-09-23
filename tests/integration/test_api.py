@@ -10,8 +10,9 @@ from src.main import app
 
 @pytest.fixture
 def client():
-    """Create test client."""
-    return TestClient(app)
+    """Create test client (lifespan events run so DB tables are created)."""
+    with TestClient(app) as test_client:
+        yield test_client
 
 
 class TestHealthEndpoints:
