@@ -1,5 +1,7 @@
 # 01_backend_systems
 
+Built by [VisionQuantech](https://visionquantech.com) — AI agents, apps & tools for small businesses.
+
 > Python ERP-style backend system built around Domain-Driven Design, Clean Architecture, FastAPI, PostgreSQL, RBAC, and migration-driven delivery.
 
 [![Python](https://img.shields.io/badge/Python-3.11%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
